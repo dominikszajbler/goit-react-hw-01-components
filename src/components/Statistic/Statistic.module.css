@@ -1,0 +1,35 @@
+.statistics {
+    margin: auto;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.title {
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .statlist {
+    display: flex;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 75px;
+    padding: 20px;
+  
+    color: #fff;
+    background-color: #ccc;
+  }
+  
+  .label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }

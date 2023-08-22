@@ -1,0 +1,28 @@
+.transaction__history {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 15px;
+  }
+  
+  .transaction__history th,
+  .transaction__history td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .transaction__history th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .transaction__history tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .transaction__history td:first-child {
+    text-transform: capitalize;
+  }
